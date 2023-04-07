@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Sheffield_Car_Park_System.Dtos;
-using Sheffield_Car_Park_System.Models;
 
 namespace Sheffield_Car_Park_System.Controllers
 {
@@ -19,6 +18,12 @@ namespace Sheffield_Car_Park_System.Controllers
         public ActionResult<AppResponse<User>> Login([FromBody] LoginDto login)
         {
             return Ok(this.userService.Login(login));
+        }
+
+        [HttpGet]
+        public ActionResult<AppResponse<List<User>>> Get()
+        {
+            return Ok(userService.GetAll());
         }
 
     }
