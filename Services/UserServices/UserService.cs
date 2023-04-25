@@ -79,20 +79,25 @@ namespace Sheffield_Car_Park_System.Services.UserServices
 
         public AppResponse<User> Update(User user)
         {
-            AppResponse<User> user1 = GetById(user.Id);
 
-            // user1.EmailAddress = user.EmailAddress ?? user1.EmailAddress;
-            // user1.Password = user.Password ?? user1.Password;
-            // user1.FirstName = user.FirstName ?? user1.FirstName;
-            // user1.LastName = user.LastName ?? user1.LastName;
-            this.Delete(user1.Data.Id);
-            this.Create(user);
+            User user2 = _users.FirstOrDefault(u => u.Id == user.Id)!;
+            if (user2 == null)
+            {
+                throw new Exception($"User {user.Id}  not found");
+            }
+            int index = _users.IndexOf(user2);
+            user2.EmailAddress = user.EmailAddress ?? user2.EmailAddress;
+            user2.Password = user.Password ?? user2.Password;
+            user2.FirstName = user.FirstName ?? user2.FirstName;
+            user2.LastName = user.LastName ?? user2.LastName;
+
+            _users[index] = user2;
 
             return new AppResponse<User>()
             {
                 Data = user,
                 Status = "success",
-                Message = "User deleted successfully."
+                Message = "User updated successfully."
             };
         }
     }

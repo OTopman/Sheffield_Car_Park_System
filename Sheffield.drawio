@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-04-08T09:12:27.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mVM9YGJAPktvCnT2EoA1" version="21.1.5" type="device">
+  <diagram name="Page-1" id="KaandRSiXaxAvBSASDq7">
+    <mxGraphModel dx="1781" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-2" value="Car pack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-19" value="Park his/her car" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CeHQbETv0wAsC5XD46Vb-3" target="CeHQbETv0wAsC5XD46Vb-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-3" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-4" target="CeHQbETv0wAsC5XD46Vb-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-18" value="Pay for a car park space" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CeHQbETv0wAsC5XD46Vb-17" vertex="1" connectable="0">
+          <mxGeometry x="0.048" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-4" value="Available Services" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-12" value="Discount Applied to the employees of the organization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-5" target="CeHQbETv0wAsC5XD46Vb-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-5" value="Discount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-6" target="CeHQbETv0wAsC5XD46Vb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-6" target="CeHQbETv0wAsC5XD46Vb-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-10" value="Partner will pay certain amount for discount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CeHQbETv0wAsC5XD46Vb-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0002" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-6" value="Partner Registration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-13" value="View" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-11" target="CeHQbETv0wAsC5XD46Vb-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-11" value="Employee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CeHQbETv0wAsC5XD46Vb-14" target="CeHQbETv0wAsC5XD46Vb-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-16" value="View" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CeHQbETv0wAsC5XD46Vb-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.0971" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeHQbETv0wAsC5XD46Vb-14" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
